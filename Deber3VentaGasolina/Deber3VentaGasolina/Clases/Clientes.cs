@@ -8,6 +8,15 @@ namespace Deber3VentaGasolina.Clases
 {
     class Clientes
     {
+        public Clientes(string apellidos, string nombres, int cedula, string direccion, List<Gasolina> gasolina)
+        {
+            Apellidos = apellidos;
+            Nombres = nombres;
+            Cedula = cedula;
+            Direccion = direccion;
+            Gasolina = gasolina;
+        }
+
         private string apellidos;
 
         public string Apellidos
@@ -39,5 +48,14 @@ namespace Deber3VentaGasolina.Clases
             get { return direccion; }
             set { direccion = value; }
         }
+
+        private List<Gasolina> gasolina;
+      
+        public List<Gasolina> Gasolina 
+        {
+            get { return gasolina; }
+            set { gasolina = value; }
+        }
+
     }
 }
