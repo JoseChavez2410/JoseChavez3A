@@ -6,17 +6,8 @@ using System.Threading.Tasks;
 
 namespace Deber3VentaGasolina.Clases
 {
-    class Clientes
+    public class Clientes
     {
-        public Clientes(string apellidos, string nombres, int cedula, string direccion, List<Gasolina> gasolina)
-        {
-            Apellidos = apellidos;
-            Nombres = nombres;
-            Cedula = cedula;
-            Direccion = direccion;
-            Gasolina = gasolina;
-        }
-
         private string apellidos;
 
         public string Apellidos
@@ -33,9 +24,9 @@ namespace Deber3VentaGasolina.Clases
             set { nombres = value; }
         }
 
-        private int cedula;
+        private string cedula;
 
-        public int Cedula
+        public string Cedula
         {
             get { return cedula; }
             set { cedula = value; }

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Deber3VentaGasolina.Clases
+﻿namespace Deber3VentaGasolina.Clases
 {
-    class Gasolina
+    public class Gasolina
     {
         private string tipo;
 
@@ -24,12 +18,50 @@ namespace Deber3VentaGasolina.Clases
             set { cantidad = value; }
         }
 
-        private float precio;
+        private double precio;
 
-        public float Precio
+        public double Precio
         {
-            get { return precio; }
-            set { precio = value; }
+            get {
+                if (Tipo=="Extra"||tipo=="extra"||tipo=="EXTRA")
+                {
+                    precio= 1.50;
+                }
+                else if (Tipo=="Super"||tipo=="super"||tipo=="SUPER")
+                {
+                    precio= 2.00;
+                }
+                return precio;
+            }
+
         }
+
+        private double subtotal;
+
+        public double Subtotal
+        {
+            get { return subtotal=precio*cantidad; }
+        }
+
+        private double iva;
+
+        public double IVA
+        {
+            get { return iva=(subtotal*12)/100; }
+            set { iva = value; }
+        }
+
+        private double total;
+
+        public double Total
+        {
+            get { return total=subtotal+iva; }
+  
+        }
+
+
+
+
+
     }
 }
