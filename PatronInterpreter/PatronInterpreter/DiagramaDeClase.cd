@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PatronInterprete.Clases.Contexto" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Contexto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronInterprete.Clases.Expresion" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQRAAAEABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\Expresion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronInterprete.Clases.ExpresionCentenas" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQQAAAEABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\ExpresionCentenas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronInterprete.Clases.ExrpesionDecenas" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQQAAAEABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\ExpresionDecenas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronInterprete.Clases.ExpresionMiles" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQQAAAEABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\ExpresionMiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronInterprete.Clases.ExpresionUnidad" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAQQAAAEABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clases\ExpresionUnidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronInterprete.Program" Collapsed="true">
+    <Position X="14.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
