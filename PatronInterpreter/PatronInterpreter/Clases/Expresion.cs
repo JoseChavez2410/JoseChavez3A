@@ -66,5 +66,9 @@ namespace PatronInterprete.Clases
         public abstract string Nueve();
         public abstract int Factor(); //Sirve para saber por que valor se va a multplicar en el interprete
         //Estos metodos seran interpretados por las clases que van a descender de Expresion
+
+        //Resaltan los nombres de los metodos debido a el patron que siguen los numeros romanos y su repeticion de simbolos,
+        //del 1 al 3 es el mismo signo (I) y ocupa 1 espacio por vez; el 4 es una combinacion del 5 con el 1 (I,V =IV) y ocupan dos lugares, 
+        //el 5 (V) ocupa 1 lugar y el próximo signo que hace combinación es el 9 (IX) que utiliza un signo de una escala mayor.
     }
 }
